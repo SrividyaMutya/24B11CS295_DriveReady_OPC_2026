@@ -57,7 +57,7 @@ Customized the workshop examples into a simple AI-powered bakery assistant.
 ```text
 24B11CS295_DriveReady_OPC_2026/
 └── Day-4/
-    ├── Task.ipynb
+    ├── Task.py
     └── README.md
 ```
 
