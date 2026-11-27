@@ -7,7 +7,7 @@ For Day 1 of the AI Agents training program, I built a small customer-support as
 - **Prompt guard test:** Runs a sample prompt-injection input through `meta-llama/llama-prompt-guard-2-22m` via the Groq API to see how strongly it flags an instruction-override attempt.
 
 ## How I Built & Tested It
-I wrote the code in a Google Colab notebook (`agenticAI.ipynb`):
+I wrote the code in a Google Colab notebook (`Task.ipynb`):
 - Installed `langchain_groq` and pulled `GROQ_API_KEY` from Colab's Secrets tab.
 - Set up `ChatGroq` with `openai/gpt-oss-120b` (`temperature=0`) and a simple `ask(question)` helper function.
 - Tested it with a sample question (`"can i get my order tommorrow"`) and checked the prompt-guard score on an adversarial prompt.
